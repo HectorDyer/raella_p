@@ -1,0 +1,32 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "raella_test"
+relativeURLS = true
+
+[module]
+    [[module.mounts]]
+      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target = "static/js/bootstrap.bundle.min.js"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Performance"
+    pre = "pen-tool"
+    url = "/performance/"
+    weight = 2
+  [[menu.main]]
+    name = "Cloth"
+    pre = "pen-tool"
+    url = "/cloth/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    pre = "pen-tool"
+    url = "/about/"
+    weight = 2
