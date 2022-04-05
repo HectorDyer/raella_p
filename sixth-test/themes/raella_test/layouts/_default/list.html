@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="list-container">
+  <h1 class="category-title">
+    {{ .Type | humanize }}
+  </h1>
+  <div class="category-cards">
+    {{ range .Pages }}
+          <div class="category-card">
+            <a class="text-body" href="{{ .URL | relURL }}">
+              <!-- {{ if .Draft }}DRAFT: {{end}} -->
+              {{ .Title | markdownify }}
+            </a>
+          </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

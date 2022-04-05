@@ -1,0 +1,10 @@
+.footer-container {
+    background: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.footer-content {
+    text-align: center;
+}

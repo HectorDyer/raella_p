@@ -1,0 +1,23 @@
+@import "node_modules/bootstrap/css/bootstrap";
+@import "styles";
+@import "pages/homepage.css";
+@import "pages/about.css";
+@import "pages/work.css";
+@import "pages/navbar.css";
+@import "pages/footer.css";
+@import "pages/category.css";
+@import "buttons.css";
+@import "components/cards.css";
+
+body {
+    background: grey;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+:root {
+  --red: #FF3901;
+  --grey: #C4C4C4;
+  --black: #0E0000;
+  --offwhite: #FAFBFC;
+}

@@ -1,0 +1,17 @@
+.nav-container {
+    width: 90%;
+    margin: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: orange;
+    background: blue;
+}
